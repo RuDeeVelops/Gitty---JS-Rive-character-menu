@@ -6,7 +6,7 @@
 
 ### Tech stack: `Rive` `JS` `css` `html`
 
-### Live link:
+### Live link: https://rive.app/community/8333-15963-gitty-interactive-character-and-menu-animation/
 
 <br>
 
@@ -19,7 +19,7 @@
 - A fully interactive character and menu Rive animation, triggered by mouse events.
 - 100% web native via `JS/WASM` runtime for Rive.
 - The source Rive file is found in: `src: "media/gitty.riv"`
-- Live link:
+- Live link: https://rive.app/community/8333-15963-gitty-interactive-character-and-menu-animation/
 - The integration is done via a few lines of Javascript:
 
 <div style="max-width: 70vw; margin-left: auto; margin-right: auto;">
