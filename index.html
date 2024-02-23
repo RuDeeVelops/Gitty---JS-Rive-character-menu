@@ -4,23 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gitty - A interactive Rive JS runtime character animation menu</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <script src="https://unpkg.com/@rive-app/canvas@2.7.0"></script>
+    <div class="container">
+      <canvas id="canvas" width="1792" height="1024"></canvas>
 
-    <canvas id="canvas" width="1792" height="1024"></canvas>
+      <div class="signature">
+        Try hovering on "Journey"<br />
+        Made in Rive by
+        <a href="https://bento.me/3drudy" target="_blank" class="link">Rodolfo Fanti</a><br />
+      </div>
+    </div>
 
-    <script>
-      const canvas = document.getElementById("canvas");
-
-      const r = new rive.Rive({
-        src: "media/gitty.riv",
-        canvas: document.getElementById("canvas"),
-        autoplay: true,
-        artboard: "mainComp", // Specify the artboard name here
-        stateMachines: "State Machine 1",
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
