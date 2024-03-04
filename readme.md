@@ -8,6 +8,8 @@
 
 ### Live link: https://rive.app/community/8333-15963-gitty-interactive-character-and-menu-animation/
 
+### Full Tutorial: https://www.youtube.com/watch?v=WSw02QGOOdI
+
 <br>
 
 <p align="center">
